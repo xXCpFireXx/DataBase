@@ -1,3 +1,12 @@
+--Crear tabla usuarios.
+CREATE TABLE usuarios( 
+id INT AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(50),
+edad INT,
+nota FLOAT CHECK (nota >= 0 AND nota <= 5),
+ciudad VARCHAR(50),
+isActive BOOLEAN);
+
 --Mostrar todos los datos de la tabla usuarios.
 SELECT * FROM usuarios;
 
