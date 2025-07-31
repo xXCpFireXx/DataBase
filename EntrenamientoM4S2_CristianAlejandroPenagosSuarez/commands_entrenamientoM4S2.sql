@@ -26,14 +26,14 @@ name VARCHAR(100) NOT NULL,
 code_course VARCHAR(10) UNIQUE NOT NULL,
 credits INT NOT NULL,
 semester INT NOT NULL,
-id_professor INT NOT NULL,
+id_professor INT,
 FOREIGN KEY (id_professor) REFERENCES professors(id_professor)
 );
 
 CREATE TABLE enrollments (
 id_enrollment INT AUTO_INCREMENT PRIMARY KEY,
-id_student INT NOT NULL,
-id_course INT NOT NULL,
+id_student INT,
+id_course INT,
 enrollment_date DATE NOT NULL,
 final_grade DECIMAL(3,2) NOT NULL CHECK (final_grade >= 0.00 AND final_grade <= 5.00),
 FOREIGN KEY (id_student) REFERENCES students(id_student),
@@ -109,3 +109,29 @@ FROM students
 JOIN enrollments ON students.id_student = enrollments.id_student
 GROUP BY students.id_student, students.full_name
 HAVING COUNT(*) > 1;
+
+-- Agregar una nueva columna estado_academico a la tabla estudiantes (ALTER TABLE).
+ALTER TABLE students ADD COLUMN academic_status VARCHAR(15) NOT NULL;
+
+-- Eliminar un docente y observar el efecto en la tabla cursos (uso de ON DELETE en FK).
+DELETE FROM professors WHERE id_professor = 1;
+
+	-- Ver el nombre de la clave foránea
+	SHOW CREATE TABLE courses;
+
+	-- Eliminar la clave foránea actual
+	ALTER TABLE courses
+	DROP FOREIGN KEY courses_ibfk_1;
+
+	-- Agregar de nuevo la clave foránea con ON DELETE
+	ALTER TABLE courses
+	ADD CONSTRAINT fk_courses_professors
+	FOREIGN KEY (id_professor) REFERENCES professors(id_professor)
+	ON DELETE CASCADE;
+
+-- Consultar los cursos en los que se han inscrito más de 2 estudiantes (GROUP BY + COUNT + HAVING).
+SELECT courses.name, COUNT(*) AS total_students
+FROM courses
+JOIN enrollments ON courses.id_course = enrollments.id_course
+GROUP BY courses.id_course, courses.name
+HAVING COUNT(*) > 2;
