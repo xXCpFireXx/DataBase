@@ -9,20 +9,27 @@ app.use(json());
 const db = createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'admin', // cambia si usas otra
-  database: 'riwidb'
+  password: '', // cambia si usas otra
+  database: 'practica_db'
 });
 
 // GET: Obtener usuarios
-app.get('/users', (req, res) => {
+app.get('/usuarios', (req, res) => {
   db.query('SELECT * FROM usuarios', (err, results) => {
     if (err) return res.status(500).json({ error: err });
     res.json(results);
   });
 });
 
+app.get('/employes', (req, res) => {
+  db.query('SELECT * FROM empleados', (err, results) => {
+    if (err) return res.status(500).json({ error: err });
+    res.json(results);
+  });
+});
+
 // POST: Agregar usuario
-app.post('/users', (req, res) => {
+app.post('/usuarios', (req, res) => {
   const { nombre, email } = req.body;
   db.query('INSERT INTO usuarios (nombre, email) VALUES (?, ?)', [nombre, email], (err) => {
     if (err) return res.status(500).json({ error: err });

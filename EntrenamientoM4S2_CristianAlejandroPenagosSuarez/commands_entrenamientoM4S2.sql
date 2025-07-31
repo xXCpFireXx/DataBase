@@ -3,29 +3,29 @@ USE academic_management_university;
 
 CREATE TABLE students (
 id_student INT AUTO_INCREMENT PRIMARY KEY,
-full_name VARCHAR(100),
-email VARCHAR(255),
-gender VARCHAR(20),
+full_name VARCHAR(100) NOT NULL,
+email VARCHAR(255) NOT NULL,
+gender VARCHAR(20) NOT NULL,
 identification INT UNIQUE NOT NULL,
-career VARCHAR(255),
-birthday DATE,
-rollment_date DATE
+career VARCHAR(255) NOT NULL,
+birthday DATE NOT NULL,
+rollment_date DATE NOT NULL
 );
 
 CREATE TABLE professors (
 id_professor INT AUTO_INCREMENT PRIMARY KEY,
-full_name VARCHAR(100),
+full_name VARCHAR(100) NOT NULL,
 institutional_email VARCHAR(255) NOT NULL,
 academic_department VARCHAR(255) NOT NULL,
-years_experience INT
+years_experience INT NOT NULL
 );
 
 CREATE TABLE courses (
 id_course INT AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(100),
+name VARCHAR(100) NOT NULL,
 code_course VARCHAR(10) UNIQUE NOT NULL,
-credits INT,
-semester INT,
+credits INT NOT NULL,
+semester INT NOT NULL,
 id_professor INT NOT NULL,
 FOREIGN KEY (id_professor) REFERENCES professors(id_professor)
 );
@@ -34,7 +34,7 @@ CREATE TABLE enrollments (
 id_enrollment INT AUTO_INCREMENT PRIMARY KEY,
 id_student INT NOT NULL,
 id_course INT NOT NULL,
-enrollment_date DATE,
+enrollment_date DATE NOT NULL,
 final_grade DECIMAL(3,2) NOT NULL CHECK (final_grade >= 0.00 AND final_grade <= 5.00),
 FOREIGN KEY (id_student) REFERENCES students(id_student),
 FOREIGN KEY (id_course) REFERENCES courses(id_course)
@@ -97,7 +97,15 @@ SELECT courses.name, professors.years_experience FROM courses JOIN professors ON
 WHERE professors.years_experience >= 5
 ORDER BY courses.name;
 
+-- Obtener el promedio de calificaciones por curso (GROUP BY + AVG).
 SELECT courses.name, AVG(enrollments.final_grade) AS average_grade
 FROM courses JOIN enrollments ON courses.id_course = enrollments.id_course
 GROUP BY courses.name
 ORDER BY average_grade;
+
+-- Mostrar los estudiantes que están inscritos en más de un curso (HAVING COUNT(*) > 1).
+SELECT students.full_name, COUNT(*) AS total_cursos
+FROM students 
+JOIN enrollments ON students.id_student = enrollments.id_student
+GROUP BY students.id_student, students.full_name
+HAVING COUNT(*) > 1;
