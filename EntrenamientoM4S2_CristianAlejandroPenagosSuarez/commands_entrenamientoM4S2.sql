@@ -106,7 +106,7 @@ GROUP BY courses.name
 ORDER BY average_grade;
 
 -- Show students who are enrolled in more than one course (HAVING COUNT(*) > 1).
-SELECT students.full_name, COUNT(*) AS total_cursos
+SELECT students.full_name, COUNT(*) AS total_courses
 FROM students 
 JOIN enrollments ON students.id_student = enrollments.id_student
 GROUP BY students.id_student, students.full_name
@@ -175,7 +175,9 @@ WHERE id_student IN (
 	JOIN enrollments e ON s.id_student = e.id_student
 	GROUP BY s.id_student, s.full_name;
 
--- Create a view called view_academic_history that displays (Student Name, Course Name, Professor Name, Semester, Final Grade)CREATE VIEW view_academic_history AS
+-- Create a view called view_academic_history that displays (Student Name, Course Name, Professor Name, Semester, Final Grade)
+
+CREATE VIEW view_academic_history AS
 SELECT students.full_name AS student_name, courses.name AS course_name, professors.full_name AS professor_name, courses.semester, enrollments.final_grade
 FROM enrollments
 JOIN students ON enrollments.id_student = students.id_student
