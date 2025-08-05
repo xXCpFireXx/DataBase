@@ -9,7 +9,7 @@ app.use(json());
 
 const dbConnection = async () => {
   try {
-    const mongodbAtlas = "mongodb+srv://suarezalejo26:KMywB7Ts4xPOLdGT@cluster26.io7gtc6.mongodb.net/store?retryWrites=true&w=majority"
+    const mongodbAtlas = ""
     await mongoose.connect(mongodbAtlas);
   } catch (error) {
     throw new Error("Error en la base de datos")
