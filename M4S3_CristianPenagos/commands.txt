@@ -1,7 +1,7 @@
 use streamhub
 
 db.createCollection("users")
-db.createCollection("users")
+db.createCollection("history")
 db.createCollection("users")
 db.createCollection("users")
 
