@@ -1,0 +1,46 @@
+use streamhub
+
+db.createCollection("users")
+db.createCollection("users")
+db.createCollection("users")
+db.createCollection("users")
+
+db.users.insertOne({
+  cc: 'f1234567',
+  fullname: 'andrew carpenter',
+  email: 'andrew_car34@email.com',
+  country: 'usa',
+  favoritegender: ['comedy','horror','action']
+})
+
+db.users.insertMany([
+  {
+    "cc": "578721943",
+    "fullname": "laura pérez",
+    "email": "laura_pz91@email.com",
+    "country": "colombia",
+    "favoritegender": ["drama", "romance", "action"]
+  },
+  {
+    "cc": "5482193s",
+    "fullname": "hans müller",
+    "email": "hmuller88@email.de",
+    "country": "germany",
+    "favoritegender": ["thriller", "sci-fi", "comedy"]
+  },
+  {
+    "cc": "j6127384",
+    "fullname": "takashi yamamoto",
+    "email": "takashi_ymt72@email.jp",
+    "country": "japan",
+    "favoritegender": ["animation", "action", "drama"]
+  },
+  {
+    "cc": "1948372t",
+    "fullname": "marie dubois",
+    "email": "marie.db83@email.fr",
+    "country": "france",
+    "favoritegender": ["romance", "drama", "comedy"]
+  }
+])
+
