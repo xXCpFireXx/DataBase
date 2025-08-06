@@ -1,0 +1,1001 @@
+product,price,amount,isActive
+Smartphone,293.52,91,False
+Mouse,203.84,39,False
+Webcam,938.11,34,True
+Laptop,429.03,10,False
+SSD Drive,458.08,59,False
+Game Controller,951.13,15,False
+USB Cable,993.98,84,False
+Keyboard,1502.59,92,True
+USB Cable,1573.35,3,False
+USB Cable,1229.28,99,True
+Laptop,1470.59,77,False
+Speaker,545.9,5,False
+Monitor,1829.35,75,False
+Power Supply,1255.04,37,True
+Motherboard,1346.31,94,False
+Webcam,1686.5,75,True
+Mouse,422.68,77,False
+SSD Drive,1992.22,67,False
+Headphones,1080.24,70,True
+Tablet,1170.28,76,True
+Tablet,1382.94,64,False
+Graphics Card,1368.06,46,True
+Webcam,173.86,42,False
+Tablet,1730.74,94,True
+SSD Drive,538.02,65,False
+Keyboard,336.33,34,True
+Power Supply,430.7,18,False
+External HDD,444.6,57,True
+Microphone,1764.89,62,True
+Keyboard,582.02,34,True
+Monitor,1927.71,36,True
+Game Controller,1834.73,99,True
+Smartphone,1790.55,76,False
+Webcam,44.59,68,True
+Headphones,1186.41,22,True
+Smartphone,513.35,58,False
+Tablet,702.21,23,True
+Smartphone,210.28,86,True
+USB Cable,1268.13,53,True
+Smartphone,35.43,29,True
+USB Cable,1028.8,18,True
+Headphones,1181.34,80,False
+RAM Memory,1576.41,44,True
+SSD Drive,1775.2,85,True
+Smartphone,1410.72,50,True
+Mouse,363.97,42,True
+Motherboard,1188.73,96,False
+Power Supply,1301.06,1,True
+RAM Memory,1601.94,58,True
+Laptop,1778.84,26,False
+Cooling Fan,1492.56,87,False
+Graphics Card,1457.99,89,True
+Headphones,843.19,24,True
+Microphone,1172.27,75,False
+Laptop,236.79,72,False
+Headphones,266.77,7,True
+Graphics Card,1301.67,38,True
+Motherboard,1788.53,17,False
+Printer,1038.11,39,True
+Keyboard,1497.22,26,False
+Laptop,807.58,31,False
+Game Controller,902.23,47,False
+Mouse,137.56,89,True
+RAM Memory,1705.1,94,True
+Headphones,125.68,74,True
+USB Cable,306.07,25,True
+Mouse,1543.75,16,True
+Monitor,164.53,3,False
+Printer,1987.68,72,True
+Headphones,289.78,80,True
+Laptop,1842.51,6,True
+Motherboard,1290.6,4,True
+Microphone,106.45,81,True
+Printer,150.92,37,True
+Webcam,1648.04,18,True
+Cooling Fan,1108.18,14,False
+Smartphone,1536.97,92,False
+Tablet,1294.98,25,False
+External HDD,1113.99,32,True
+Tablet,167.72,65,False
+Motherboard,773.07,7,False
+Tablet,1696.83,15,True
+External HDD,270.38,30,True
+Laptop,536.86,34,True
+Cooling Fan,354.98,77,True
+Laptop,1245.06,30,False
+Speaker,1522.05,31,True
+Cooling Fan,1211.44,28,False
+External HDD,481.72,31,False
+Mouse,1384.58,48,False
+External HDD,487.42,53,False
+Microphone,696.59,16,True
+Graphics Card,415.82,6,True
+SSD Drive,257.92,21,False
+Microphone,262.72,45,False
+Cooling Fan,1485.98,63,False
+Mouse,1225.51,10,True
+Tablet,592.76,55,True
+Webcam,250.35,12,False
+Game Controller,1179.26,100,True
+Keyboard,499.88,73,False
+Speaker,1173.6,34,True
+External HDD,431.61,62,False
+Printer,1213.17,69,False
+Laptop,273.96,33,True
+Tablet,1440.08,51,False
+Mouse,784.86,61,True
+Speaker,1447.11,57,False
+Laptop,643.79,54,False
+RAM Memory,220.41,62,False
+Graphics Card,1367.94,3,True
+Monitor,1786.99,92,True
+Cooling Fan,1772.87,17,True
+USB Cable,1197.63,79,True
+Power Supply,1156.97,100,True
+Smartphone,1857.87,76,True
+Printer,1383.01,26,True
+SSD Drive,422.63,39,False
+Monitor,841.33,75,True
+Speaker,1397.88,72,True
+Tablet,889.96,98,False
+Headphones,1122.15,3,False
+Monitor,819.73,10,True
+Smartphone,1844.1,67,False
+Smartphone,896.0,6,True
+Power Supply,185.36,79,False
+Printer,575.39,92,False
+Power Supply,1058.6,76,True
+Laptop,1626.15,96,True
+Power Supply,597.98,2,False
+SSD Drive,1429.59,18,True
+Mouse,1311.22,86,True
+Mouse,1329.96,19,True
+Keyboard,758.61,34,True
+Speaker,813.5,84,False
+Laptop,917.8,14,False
+Graphics Card,33.34,56,False
+Monitor,64.59,9,True
+Mouse,32.62,93,True
+RAM Memory,172.1,92,True
+Microphone,961.06,37,True
+Speaker,1993.63,8,True
+Tablet,1886.67,43,True
+External HDD,392.92,89,True
+Cooling Fan,419.28,60,True
+Monitor,1935.55,48,False
+Headphones,633.49,31,True
+USB Cable,600.32,15,True
+Motherboard,811.86,8,True
+RAM Memory,727.76,6,False
+Game Controller,50.96,80,False
+Speaker,1143.78,80,False
+Headphones,414.67,83,True
+Mouse,1872.26,71,True
+Mouse,1201.43,39,True
+Keyboard,253.83,59,True
+Monitor,437.21,56,False
+RAM Memory,989.1,10,True
+Keyboard,722.49,16,False
+Webcam,383.55,84,False
+Smartphone,399.82,35,True
+Power Supply,1676.72,26,True
+Motherboard,431.65,12,False
+Tablet,825.48,77,False
+Graphics Card,1652.35,57,False
+Mouse,200.72,10,True
+Webcam,755.15,22,True
+SSD Drive,232.36,38,True
+RAM Memory,825.79,98,True
+Webcam,1385.86,21,True
+Webcam,1609.81,96,False
+Webcam,246.35,73,True
+Power Supply,215.16,20,False
+Graphics Card,298.13,43,False
+Tablet,686.95,71,False
+Laptop,1524.43,10,True
+Tablet,24.33,17,True
+Webcam,561.23,97,True
+External HDD,20.49,78,False
+Game Controller,1774.52,26,True
+SSD Drive,1515.59,22,False
+Power Supply,732.42,17,True
+Motherboard,1004.28,19,False
+Power Supply,1177.19,81,False
+USB Cable,602.64,64,False
+Keyboard,767.75,62,False
+Mouse,741.52,7,True
+Keyboard,990.28,49,False
+SSD Drive,1422.58,64,False
+Motherboard,66.58,69,False
+Printer,1948.83,98,True
+Mouse,453.07,73,True
+SSD Drive,1666.79,55,False
+Headphones,1098.33,83,False
+Smartphone,1109.04,21,False
+Power Supply,584.2,90,True
+Headphones,228.54,85,True
+Cooling Fan,1713.59,94,True
+Game Controller,1368.26,48,True
+Laptop,1972.58,100,True
+Cooling Fan,1479.34,78,False
+Mouse,209.84,65,False
+Webcam,1065.96,58,True
+USB Cable,365.78,7,True
+Graphics Card,1774.14,7,True
+Mouse,1267.01,42,True
+Power Supply,559.4,49,True
+Headphones,917.02,43,False
+Motherboard,1139.89,11,True
+Power Supply,475.67,36,True
+Game Controller,1539.54,13,False
+Printer,1759.17,27,True
+Speaker,1442.0,87,True
+External HDD,524.85,33,True
+Monitor,1926.3,56,True
+Speaker,756.16,79,False
+USB Cable,752.12,90,False
+Monitor,778.91,83,False
+Smartphone,1438.15,61,False
+Printer,181.74,9,False
+Motherboard,896.55,52,False
+Headphones,1013.85,12,False
+Speaker,374.97,6,True
+Laptop,1195.21,40,True
+Graphics Card,233.67,75,False
+Monitor,1005.18,82,False
+Webcam,129.61,9,False
+Monitor,1708.29,59,False
+External HDD,1635.78,8,False
+Motherboard,513.57,32,True
+External HDD,400.93,65,False
+Webcam,1213.26,60,True
+Headphones,819.73,90,False
+Cooling Fan,1117.54,77,True
+Power Supply,230.54,99,False
+Headphones,887.65,59,False
+Speaker,614.23,94,False
+Cooling Fan,1906.26,83,True
+Power Supply,1722.64,98,True
+External HDD,1671.54,54,False
+Game Controller,1022.41,41,False
+Motherboard,34.23,22,False
+Webcam,1283.75,6,True
+Speaker,759.42,40,False
+Monitor,935.12,40,False
+SSD Drive,115.59,43,False
+Headphones,1654.03,44,True
+Smartphone,1263.35,100,False
+Power Supply,442.86,28,False
+Headphones,1899.63,47,False
+Speaker,1157.71,71,True
+Monitor,1847.69,22,False
+Keyboard,787.42,33,False
+Keyboard,1073.45,93,True
+Keyboard,1735.5,13,True
+Game Controller,71.35,90,True
+Graphics Card,1141.25,82,True
+RAM Memory,1137.33,97,True
+SSD Drive,744.83,24,False
+USB Cable,1296.48,52,True
+Webcam,1179.33,21,False
+RAM Memory,899.26,81,True
+Smartphone,361.41,15,True
+Smartphone,1861.95,81,True
+Graphics Card,667.77,100,False
+Mouse,1425.35,64,True
+Speaker,779.06,30,True
+Speaker,28.54,66,False
+Speaker,1470.99,32,False
+Laptop,456.39,67,True
+Printer,144.9,19,True
+External HDD,892.61,75,True
+Webcam,20.68,77,True
+SSD Drive,820.74,12,True
+Mouse,879.38,86,True
+Webcam,419.37,36,True
+Cooling Fan,1770.9,88,True
+Smartphone,861.14,63,False
+External HDD,246.57,39,False
+Graphics Card,79.71,39,True
+Laptop,15.61,64,True
+Graphics Card,243.92,89,True
+Laptop,985.13,66,True
+USB Cable,382.55,96,False
+Mouse,121.08,46,True
+Webcam,93.92,1,False
+Graphics Card,1517.83,84,False
+USB Cable,1146.32,1,False
+Mouse,939.01,38,True
+Graphics Card,586.55,5,True
+Smartphone,1368.59,10,False
+Graphics Card,1470.86,58,False
+SSD Drive,568.29,7,False
+Monitor,482.42,91,False
+External HDD,167.68,58,True
+Speaker,871.89,27,True
+Motherboard,16.45,16,False
+Monitor,1906.24,13,True
+Speaker,617.53,87,False
+Game Controller,1837.82,64,True
+Monitor,1281.19,94,True
+Laptop,1138.37,97,False
+Laptop,571.94,90,False
+Power Supply,546.81,88,False
+Game Controller,99.86,42,True
+Speaker,800.79,81,True
+External HDD,638.21,79,False
+Mouse,922.69,39,True
+Power Supply,1965.51,62,False
+Tablet,1563.32,5,True
+Mouse,411.93,97,False
+Keyboard,1553.88,58,True
+Cooling Fan,269.43,41,True
+SSD Drive,1049.89,29,True
+SSD Drive,174.82,26,True
+RAM Memory,1570.05,18,False
+Smartphone,1776.9,40,False
+USB Cable,1777.5,50,False
+External HDD,1518.67,11,False
+Motherboard,205.42,83,True
+RAM Memory,89.75,26,False
+Speaker,1291.5,21,True
+Power Supply,1642.38,70,False
+Keyboard,679.08,44,True
+Game Controller,1191.64,7,True
+Keyboard,24.87,72,True
+Webcam,1208.64,34,False
+Speaker,1931.94,24,False
+RAM Memory,1565.21,84,False
+Game Controller,1540.3,41,False
+Webcam,1683.19,50,True
+RAM Memory,68.35,40,True
+Microphone,1533.14,46,False
+Speaker,750.63,16,True
+Tablet,1735.6,9,False
+RAM Memory,758.4,25,True
+Speaker,1118.41,11,True
+Smartphone,512.04,50,True
+Game Controller,238.04,93,True
+USB Cable,437.69,6,True
+Mouse,1445.39,23,True
+Mouse,1092.38,61,True
+Tablet,730.04,48,True
+Microphone,1241.64,22,True
+Speaker,1822.06,56,True
+Keyboard,1129.2,8,True
+Headphones,220.13,20,False
+Graphics Card,1651.53,88,False
+Cooling Fan,1466.72,88,True
+Headphones,857.46,87,True
+Cooling Fan,616.93,11,True
+Cooling Fan,480.56,10,True
+External HDD,931.04,5,False
+Motherboard,995.76,6,False
+Power Supply,860.69,33,True
+Tablet,1162.02,20,False
+Cooling Fan,1092.58,81,True
+Printer,447.74,65,True
+Headphones,923.52,33,True
+Mouse,1347.6,58,False
+RAM Memory,184.95,69,True
+Microphone,1553.16,47,False
+RAM Memory,755.52,65,False
+Cooling Fan,1044.91,4,False
+SSD Drive,1659.69,49,True
+External HDD,1173.81,22,True
+Webcam,179.09,92,True
+Graphics Card,1291.91,14,True
+RAM Memory,1981.54,37,False
+Laptop,1515.12,51,True
+Microphone,592.79,13,False
+Monitor,1100.44,22,False
+SSD Drive,1322.8,12,False
+Speaker,298.72,10,True
+SSD Drive,103.77,95,True
+USB Cable,1698.47,6,True
+Cooling Fan,760.43,83,True
+Smartphone,315.42,75,False
+Keyboard,67.46,86,True
+Monitor,1554.09,75,False
+Laptop,477.56,34,False
+Webcam,628.37,59,False
+Speaker,1524.42,10,True
+Headphones,204.97,51,False
+External HDD,1069.47,51,True
+Power Supply,1141.74,69,False
+Monitor,263.94,1,True
+Tablet,1897.75,67,False
+Printer,1838.44,3,True
+Mouse,1160.67,17,True
+Smartphone,439.95,78,False
+Printer,380.94,21,False
+Mouse,1806.23,90,True
+Mouse,814.81,97,True
+Monitor,550.82,99,False
+External HDD,595.32,81,True
+External HDD,831.53,5,False
+Motherboard,927.92,48,False
+Motherboard,1409.8,28,False
+Laptop,1018.49,14,True
+Power Supply,1004.22,86,True
+Monitor,1870.62,61,False
+Cooling Fan,1265.67,93,False
+Webcam,796.38,63,True
+Headphones,1361.91,96,True
+Graphics Card,1060.23,10,False
+Microphone,994.59,90,True
+Webcam,1622.82,12,False
+Printer,660.97,77,True
+Game Controller,1886.78,84,True
+USB Cable,1206.0,80,True
+Graphics Card,1641.97,18,False
+Speaker,167.58,26,True
+Microphone,241.62,36,True
+Graphics Card,1826.55,30,False
+Graphics Card,940.7,46,True
+Power Supply,1286.88,92,False
+Webcam,801.06,100,False
+Smartphone,1742.37,40,False
+Smartphone,1135.64,6,True
+Cooling Fan,1967.32,70,False
+Graphics Card,1863.25,10,True
+Smartphone,619.56,86,False
+Power Supply,535.81,51,True
+Microphone,1180.9,30,False
+Microphone,699.48,30,True
+Laptop,1725.49,82,False
+Cooling Fan,1575.57,51,True
+RAM Memory,1252.72,89,False
+Speaker,1499.96,88,True
+External HDD,1603.15,19,False
+Laptop,355.91,72,True
+Microphone,1254.89,87,True
+Mouse,40.85,19,True
+Microphone,689.79,63,True
+Laptop,821.31,2,True
+Graphics Card,778.92,36,False
+SSD Drive,202.29,67,True
+Game Controller,301.23,85,False
+Monitor,1633.79,38,True
+USB Cable,1734.32,10,True
+Motherboard,225.17,84,False
+Power Supply,1922.77,22,True
+USB Cable,1494.79,33,False
+Printer,1790.44,77,False
+Motherboard,786.41,71,False
+Graphics Card,1033.09,14,False
+Game Controller,325.54,80,False
+Speaker,494.29,21,True
+RAM Memory,1087.33,15,True
+Microphone,1185.05,75,False
+Motherboard,1019.9,83,True
+Tablet,1381.63,64,True
+RAM Memory,1399.58,93,False
+Smartphone,1386.8,62,True
+Graphics Card,1639.62,90,True
+External HDD,98.19,81,True
+Keyboard,1476.18,91,True
+Speaker,1214.68,46,False
+SSD Drive,1021.58,60,False
+Headphones,739.11,33,True
+Smartphone,838.27,18,False
+Laptop,1517.53,3,True
+Monitor,252.6,27,True
+Keyboard,1763.91,14,True
+Smartphone,382.36,7,False
+Motherboard,1797.98,92,True
+RAM Memory,1715.85,55,False
+Keyboard,987.44,86,False
+Graphics Card,1587.89,16,True
+Microphone,1406.5,19,True
+Smartphone,1850.9,20,True
+Motherboard,428.5,79,True
+Headphones,1781.65,17,True
+SSD Drive,1426.13,31,True
+Graphics Card,1394.15,46,False
+Graphics Card,904.11,89,False
+Motherboard,1320.39,45,True
+USB Cable,541.98,46,False
+Printer,297.8,81,True
+Keyboard,1461.02,52,True
+Webcam,1172.2,89,False
+Tablet,1133.33,79,True
+Cooling Fan,1375.07,32,True
+Laptop,980.92,21,False
+Webcam,1564.47,3,True
+Speaker,1426.29,22,False
+Smartphone,1346.16,62,False
+Motherboard,1139.4,9,True
+USB Cable,40.0,46,True
+Mouse,1462.71,33,True
+Mouse,1959.78,23,True
+External HDD,409.81,39,True
+Smartphone,834.85,10,True
+Game Controller,395.95,79,False
+Speaker,1006.49,86,True
+Keyboard,1457.89,14,False
+USB Cable,1117.65,49,False
+Keyboard,752.57,46,False
+Speaker,1529.03,70,True
+USB Cable,1561.63,64,False
+Mouse,1027.99,4,True
+USB Cable,904.71,50,True
+Graphics Card,1917.52,67,False
+Cooling Fan,1999.66,47,True
+Mouse,1368.14,89,True
+Power Supply,900.38,69,True
+Headphones,786.01,78,False
+Speaker,1209.87,68,False
+Power Supply,228.33,55,True
+RAM Memory,1382.03,68,False
+Speaker,964.51,24,False
+Speaker,849.7,2,False
+Microphone,216.89,6,True
+Printer,1606.6,54,False
+Cooling Fan,270.51,79,False
+Motherboard,1012.33,66,False
+RAM Memory,1004.31,66,True
+External HDD,960.65,72,False
+USB Cable,631.63,27,True
+Webcam,439.84,33,False
+Headphones,421.58,76,False
+Monitor,1452.65,27,True
+SSD Drive,149.83,61,False
+Game Controller,1562.23,55,True
+SSD Drive,466.6,35,False
+RAM Memory,29.54,47,True
+External HDD,881.79,94,True
+Motherboard,1977.93,81,False
+Tablet,718.55,4,True
+Keyboard,218.21,28,True
+RAM Memory,1249.69,18,True
+Keyboard,1112.77,72,True
+RAM Memory,915.33,51,False
+SSD Drive,706.45,27,True
+Keyboard,1229.68,27,True
+RAM Memory,27.86,23,True
+Speaker,76.49,37,False
+Game Controller,63.6,59,True
+Power Supply,364.41,42,False
+Monitor,987.57,56,False
+Keyboard,1175.62,12,True
+Microphone,688.98,44,True
+USB Cable,1681.98,32,False
+Printer,1140.44,46,True
+Printer,1246.6,26,False
+Monitor,1421.3,56,False
+Mouse,1682.7,93,True
+Printer,73.86,63,False
+Webcam,899.39,82,True
+Game Controller,1262.6,63,False
+External HDD,1707.2,56,False
+RAM Memory,1566.36,83,False
+Monitor,52.36,41,False
+Microphone,1251.6,75,False
+Power Supply,312.68,71,True
+Keyboard,78.46,35,True
+Cooling Fan,1744.59,17,True
+SSD Drive,1606.99,75,False
+Game Controller,421.96,69,True
+Headphones,83.08,55,False
+Webcam,1453.2,89,True
+SSD Drive,419.33,2,True
+USB Cable,1375.77,68,True
+Microphone,407.18,61,True
+Game Controller,1711.29,43,True
+Laptop,131.59,45,False
+SSD Drive,306.37,31,False
+Microphone,671.22,45,False
+USB Cable,1096.22,84,False
+Tablet,1235.7,91,True
+Printer,886.09,49,False
+Microphone,640.2,34,True
+Tablet,850.61,39,False
+USB Cable,1937.43,30,False
+Headphones,1286.76,6,False
+Game Controller,514.39,4,False
+Motherboard,369.81,28,False
+Mouse,323.3,53,True
+Smartphone,1217.26,8,True
+Webcam,814.3,83,False
+USB Cable,534.94,71,True
+Monitor,592.3,17,True
+Headphones,571.21,85,True
+Mouse,1566.08,46,False
+Headphones,1871.71,45,True
+Smartphone,703.14,33,False
+RAM Memory,1561.65,48,False
+External HDD,1663.24,21,False
+Headphones,415.63,40,False
+Power Supply,691.1,43,True
+Headphones,54.33,62,False
+Headphones,1521.78,31,False
+Microphone,1288.68,49,True
+USB Cable,333.95,20,False
+Cooling Fan,1379.44,49,False
+Webcam,1889.08,68,False
+Game Controller,120.36,57,False
+Laptop,1682.07,13,True
+Webcam,1851.73,61,True
+USB Cable,1493.41,8,True
+RAM Memory,994.22,63,False
+RAM Memory,1572.31,63,True
+Laptop,1478.85,47,True
+SSD Drive,24.03,87,True
+Power Supply,540.5,48,False
+Keyboard,177.98,15,False
+SSD Drive,1491.56,51,False
+Laptop,791.21,64,False
+Motherboard,404.59,67,False
+Tablet,1159.71,1,True
+Graphics Card,1707.01,31,False
+Headphones,443.86,83,True
+Printer,393.57,17,True
+Cooling Fan,148.75,17,False
+Webcam,378.79,57,False
+Tablet,219.68,85,True
+Smartphone,1836.21,71,True
+Speaker,1218.93,12,False
+Printer,686.28,4,False
+Speaker,287.88,14,False
+Motherboard,1938.93,83,True
+Cooling Fan,335.52,60,False
+SSD Drive,1948.96,18,False
+Cooling Fan,1878.64,49,True
+USB Cable,1189.68,48,False
+SSD Drive,867.93,69,False
+Power Supply,1238.32,98,True
+Game Controller,664.84,98,False
+Cooling Fan,1578.31,8,False
+Keyboard,1961.07,96,True
+Speaker,733.94,40,True
+Tablet,1488.14,27,False
+RAM Memory,1341.33,48,False
+Microphone,915.98,89,False
+Headphones,1393.25,59,True
+Graphics Card,1812.0,87,False
+Mouse,527.46,15,True
+Cooling Fan,1773.44,91,False
+SSD Drive,1121.21,9,False
+Smartphone,597.01,31,False
+SSD Drive,1788.4,85,False
+Monitor,537.29,62,False
+USB Cable,163.71,79,True
+Printer,1435.71,87,False
+Cooling Fan,1955.41,10,True
+Smartphone,144.77,94,False
+Monitor,1272.98,88,True
+USB Cable,1300.44,26,False
+Monitor,745.44,76,False
+Speaker,868.64,99,True
+Game Controller,305.1,22,False
+Smartphone,286.94,53,True
+Printer,1101.86,77,True
+Cooling Fan,1789.76,16,True
+Smartphone,512.45,77,True
+Webcam,964.33,42,False
+USB Cable,208.26,22,False
+Mouse,546.58,44,False
+USB Cable,1407.54,5,True
+Cooling Fan,418.85,31,True
+Monitor,528.2,78,True
+Motherboard,846.46,67,True
+RAM Memory,407.88,67,True
+Power Supply,728.11,68,True
+Headphones,363.64,13,False
+Cooling Fan,118.72,48,True
+Game Controller,376.64,88,False
+Webcam,1618.51,18,False
+Headphones,129.75,35,True
+Smartphone,1029.29,74,False
+RAM Memory,882.47,87,False
+Cooling Fan,520.5,44,False
+Smartphone,633.74,71,False
+Speaker,661.01,79,False
+Printer,125.61,25,True
+Smartphone,355.16,65,False
+USB Cable,1409.86,24,True
+Printer,264.11,69,True
+Microphone,870.76,88,False
+Power Supply,1187.63,49,True
+Laptop,357.37,28,True
+External HDD,408.92,97,True
+RAM Memory,1207.48,57,False
+Laptop,290.81,21,True
+Keyboard,199.93,5,True
+Tablet,940.39,8,False
+Speaker,1554.69,64,True
+Laptop,150.12,72,True
+USB Cable,808.31,61,True
+Game Controller,1209.02,73,True
+Game Controller,1619.37,42,True
+Motherboard,25.35,94,False
+External HDD,1826.06,7,False
+Microphone,60.87,26,True
+Speaker,1857.93,48,True
+Microphone,1275.13,15,False
+Headphones,80.79,62,True
+Laptop,719.25,88,True
+Graphics Card,852.86,42,True
+SSD Drive,1457.45,64,True
+Microphone,1049.83,28,False
+Microphone,1894.2,65,False
+Headphones,585.98,52,False
+Laptop,298.03,77,True
+External HDD,375.22,28,True
+Printer,214.75,82,False
+Webcam,203.02,35,True
+Speaker,462.95,65,False
+Power Supply,759.27,79,True
+Smartphone,1032.12,91,False
+Printer,1610.63,16,False
+Headphones,1915.14,85,False
+Speaker,1551.46,43,False
+Laptop,29.92,55,False
+Smartphone,158.32,29,False
+Cooling Fan,1265.47,43,True
+Game Controller,1909.93,99,True
+Headphones,906.15,56,False
+Mouse,772.66,41,False
+Headphones,963.48,40,True
+External HDD,418.98,96,False
+Graphics Card,1686.65,82,True
+Speaker,1547.54,100,False
+Microphone,1563.26,27,True
+Laptop,1875.69,44,False
+Speaker,1714.69,38,False
+Cooling Fan,1314.7,93,True
+Graphics Card,838.94,73,True
+Game Controller,1493.05,22,True
+SSD Drive,1268.66,21,False
+SSD Drive,671.9,73,True
+Motherboard,1760.34,94,True
+USB Cable,1267.17,40,True
+External HDD,237.25,7,True
+Power Supply,1490.34,11,True
+Motherboard,485.09,27,False
+Graphics Card,1696.56,47,False
+External HDD,1149.44,41,True
+Motherboard,191.52,7,True
+Game Controller,1109.67,73,True
+Motherboard,559.47,44,False
+USB Cable,354.57,26,True
+Laptop,1870.76,41,True
+Game Controller,423.64,58,False
+USB Cable,1279.12,47,False
+Microphone,1038.79,23,True
+External HDD,376.45,67,True
+Cooling Fan,1454.35,76,False
+Cooling Fan,1535.37,93,True
+Microphone,923.77,24,False
+Headphones,1604.55,80,False
+Headphones,1956.32,4,False
+Smartphone,466.02,76,True
+RAM Memory,1742.54,41,True
+External HDD,592.06,98,False
+Tablet,115.46,59,True
+External HDD,726.5,87,True
+Cooling Fan,517.57,98,False
+Cooling Fan,563.05,81,True
+Smartphone,1568.11,40,False
+Laptop,157.07,81,True
+Graphics Card,1117.74,77,False
+Graphics Card,1765.32,72,True
+Mouse,1909.53,51,True
+USB Cable,1156.68,19,False
+Game Controller,1844.13,41,True
+Mouse,756.3,14,True
+Tablet,1695.93,67,False
+External HDD,1412.85,5,False
+Webcam,1438.34,63,True
+Printer,1360.55,28,True
+Mouse,651.32,93,False
+Headphones,237.34,35,False
+RAM Memory,1293.0,75,False
+Power Supply,550.44,79,False
+Tablet,580.41,76,False
+Cooling Fan,1759.17,18,False
+USB Cable,1490.29,10,False
+Headphones,1999.32,61,True
+Cooling Fan,1988.07,72,True
+USB Cable,312.14,10,True
+Headphones,25.9,42,False
+Motherboard,707.69,5,True
+Printer,908.12,20,False
+Keyboard,1312.27,95,True
+RAM Memory,1494.36,45,True
+Monitor,1428.4,88,False
+SSD Drive,149.16,84,True
+SSD Drive,627.81,12,False
+SSD Drive,1358.24,68,True
+Smartphone,279.75,67,False
+Keyboard,734.32,69,False
+Game Controller,1630.14,67,False
+USB Cable,472.37,59,False
+Microphone,1141.73,63,False
+Cooling Fan,431.12,15,False
+Cooling Fan,1807.94,35,True
+SSD Drive,513.73,47,True
+Headphones,1629.94,96,False
+SSD Drive,1523.33,36,True
+Printer,1117.2,49,False
+Cooling Fan,679.42,72,True
+Microphone,1419.34,92,True
+Game Controller,1155.81,63,True
+Mouse,399.48,3,False
+USB Cable,1734.42,81,True
+Cooling Fan,66.81,75,True
+Microphone,676.7,28,False
+Smartphone,644.61,36,False
+RAM Memory,456.5,9,True
+Laptop,625.39,77,True
+Cooling Fan,360.77,99,False
+Monitor,346.71,45,True
+Game Controller,1710.34,16,True
+External HDD,1039.33,81,False
+Smartphone,197.78,33,True
+Laptop,1235.84,96,False
+Game Controller,1565.82,1,True
+Smartphone,1205.33,87,True
+Power Supply,1066.44,67,True
+Webcam,66.31,86,False
+External HDD,1687.59,53,True
+Webcam,1391.0,75,False
+External HDD,227.8,46,False
+Mouse,1632.02,86,False
+Cooling Fan,1453.18,61,True
+USB Cable,1600.32,83,True
+SSD Drive,1248.74,35,True
+Graphics Card,1623.55,55,False
+Game Controller,297.87,14,False
+External HDD,21.85,75,False
+Graphics Card,111.75,88,True
+Speaker,1110.74,27,False
+Mouse,1442.8,75,False
+Tablet,160.82,34,False
+Tablet,1313.43,19,False
+Microphone,938.0,91,False
+Smartphone,466.58,11,True
+Smartphone,336.11,89,True
+RAM Memory,1192.09,26,True
+Graphics Card,324.48,29,False
+Microphone,1093.52,34,False
+Laptop,1211.82,91,False
+Printer,56.43,87,True
+Headphones,1861.39,20,False
+Game Controller,114.71,97,True
+USB Cable,1676.1,78,False
+Power Supply,87.88,90,True
+Tablet,140.36,89,False
+Smartphone,87.49,30,True
+Cooling Fan,645.15,89,True
+Motherboard,931.11,47,False
+External HDD,191.47,13,True
+Motherboard,98.07,88,True
+Cooling Fan,1127.45,38,True
+RAM Memory,1058.46,37,True
+Headphones,789.86,3,False
+Headphones,487.38,100,True
+Mouse,50.64,50,False
+USB Cable,734.85,23,True
+Monitor,703.13,19,False
+External HDD,704.58,19,True
+SSD Drive,406.2,37,True
+Monitor,675.47,97,True
+Monitor,1393.59,45,True
+Laptop,702.12,54,True
+Keyboard,1957.5,53,False
+Microphone,329.24,84,False
+USB Cable,1936.41,55,True
+Webcam,941.58,50,True
+Webcam,1162.37,14,True
+Power Supply,671.96,28,True
+Cooling Fan,626.68,89,True
+Tablet,185.46,20,False
+Cooling Fan,1302.55,9,True
+Game Controller,169.26,68,True
+Speaker,1524.56,16,False
+Webcam,1059.44,26,False
+Graphics Card,67.34,59,True
+Smartphone,345.12,25,False
+SSD Drive,291.68,24,False
+Cooling Fan,1993.55,75,True
+Power Supply,1361.65,6,False
+Game Controller,1248.02,89,True
+Printer,1380.63,34,True
+Headphones,1673.64,62,True
+Printer,1961.0,32,True
+Keyboard,554.99,46,False
+Monitor,472.96,87,False
+Webcam,1292.74,68,True
+SSD Drive,1356.81,76,True
+RAM Memory,1879.45,95,False
+Speaker,1409.42,96,True
+Monitor,704.81,69,False
+Laptop,1820.67,85,False
+Graphics Card,1488.04,36,False
+Microphone,118.9,48,True
+SSD Drive,1896.48,32,True
+Motherboard,1389.0,82,False
+Laptop,679.12,19,True
+Monitor,898.32,29,False
+Tablet,1038.85,88,False
+USB Cable,1838.93,11,False
+Power Supply,1930.67,48,False
+Speaker,72.35,68,False
+External HDD,1995.51,79,False
+Cooling Fan,24.42,8,True
+Tablet,647.19,28,False
+USB Cable,1485.57,35,True
+Smartphone,1056.46,50,False
+USB Cable,62.28,5,False
+Game Controller,121.51,67,True
+Graphics Card,132.15,31,True
+Graphics Card,1486.31,37,True
+RAM Memory,248.21,51,False
+Mouse,391.88,80,True
+Cooling Fan,380.92,36,True
+Motherboard,206.28,91,False
+Tablet,1321.82,10,False
+Speaker,1315.94,14,True
+Mouse,890.56,54,False
+Cooling Fan,1275.24,60,False
+Monitor,892.25,45,False
+External HDD,851.67,75,True
+Microphone,624.49,7,False
+Webcam,1367.19,6,False
+Webcam,1990.93,58,True
+Keyboard,1995.5,98,False
+RAM Memory,874.88,24,True
+External HDD,1490.76,55,False
+Keyboard,272.54,55,False
+Smartphone,997.41,26,True
+Webcam,1133.66,73,True
+Microphone,177.87,36,False
+Speaker,359.77,8,False
+Printer,1582.82,19,False
+Keyboard,428.05,6,True
+Keyboard,712.07,52,True
+Microphone,279.78,88,False
+Smartphone,843.51,25,True
+Tablet,1666.76,57,False
+External HDD,1948.29,41,False
+Webcam,1850.07,64,True
+RAM Memory,1766.97,20,False
+SSD Drive,1642.16,85,False
+Headphones,326.56,24,False
+Monitor,868.55,67,True
+External HDD,473.7,75,False
+Mouse,1561.87,95,True
+Power Supply,946.19,43,True
+Cooling Fan,1205.71,26,True
+Printer,1266.7,14,False
+Cooling Fan,910.14,84,False
+Tablet,627.15,89,False
+SSD Drive,935.79,76,True
+Tablet,1396.81,13,True
+Monitor,762.65,43,True
+Graphics Card,500.27,46,True
+Speaker,1933.07,5,False
+Laptop,1777.45,76,False
+Power Supply,40.62,98,True
+Microphone,99.68,64,False
+Headphones,1325.49,69,True
+Graphics Card,1803.68,39,True
+USB Cable,1206.79,29,False
+Graphics Card,556.51,22,True
+Power Supply,1968.89,40,False
+Tablet,456.29,6,True
+Laptop,1979.6,21,True
+Microphone,1860.15,99,False
+Power Supply,1157.43,22,False
+External HDD,100.01,55,True
+USB Cable,1607.12,4,False
+Printer,433.25,99,True
+Printer,1800.32,72,True
+Tablet,179.49,45,False
+SSD Drive,1013.65,39,True
+SSD Drive,873.58,70,True
+Power Supply,1001.27,56,False
+Motherboard,1690.52,22,True
+External HDD,259.94,22,True
+Laptop,118.04,5,False
+Graphics Card,971.83,33,True
+Laptop,1930.66,90,True
+Microphone,1562.87,57,False
+Printer,780.0,85,True
+Mouse,213.62,1,True
+Game Controller,331.08,54,True
+Power Supply,770.56,14,True
+Tablet,1780.29,81,False
+Webcam,736.54,93,False
+Webcam,1567.63,82,False
+Keyboard,396.23,4,False
+Monitor,916.05,73,True
+RAM Memory,1379.31,82,False
+USB Cable,1870.52,16,False
+Power Supply,903.99,12,True
+Cooling Fan,1823.17,55,False
+USB Cable,1536.74,100,True
