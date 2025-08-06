@@ -1,10 +1,15 @@
 use streamhub
 
+// ------------ COLLECTIONS ------------
+// Create collections
 db.createCollection("users")
+db.createCollection("movies")
+db.createCollection("tv_shows")
 db.createCollection("history")
-db.createCollection("users")
-db.createCollection("users")
+db.createCollection("playlists")
+db.createCollection("interactions")
 
+// Insert data into "user".
 db.users.insertOne({
   cc: 'f1234567',
   fullname: 'andrew carpenter',
@@ -44,3 +49,285 @@ db.users.insertMany([
   }
 ])
 
+// Insert data into "movies".
+db.movies.insertOne({
+  title: "Inception",
+  duration: 148,
+  release_year: 2010,
+  genres: ["Sci-Fi", "Thriller"],
+  cast: ["Leonardo DiCaprio", "Joseph Gordon-Levitt"],
+  reviews: [
+    {
+      cc: "1948372t",
+      rating: 5,
+      comment: "Mind-blowing concept!",
+      date: ISODate("2025-08-01T10:00:00Z")
+    }
+  ]
+});
+
+db.movies.insertMany([
+  {
+    title: "The Matrix",
+    duration: 136,
+    release_year: 1999,
+    genres: ["Sci-Fi", "Action"],
+    cast: ["Keanu Reeves", "Laurence Fishburne"],
+    reviews: [
+      {
+        cc: "f7361925", // Andrew Carpenter
+        rating: 5,
+        comment: "A classic. Changed the game!",
+        date: ISODate("2025-08-05T14:00:00Z")
+      }
+    ]
+  },
+  {
+    title: "Amélie",
+    duration: 122,
+    release_year: 2001,
+    genres: ["Romance", "Comedy", "Drama"],
+    cast: ["Audrey Tautou", "Mathieu Kassovitz"],
+    reviews: [
+      {
+        cc: "1948372t", // Marie Dubois
+        rating: 5,
+        comment: "Magical and heartwarming.",
+        date: ISODate("2025-08-05T18:45:00Z")
+      }
+    ]
+  },
+  {
+    title: "Spirited Away",
+    duration: 125,
+    release_year: 2001,
+    genres: ["Animation", "Fantasy", "Adventure"],
+    cast: ["Rumi Hiiragi", "Miyu Irino"],
+    reviews: [
+      {
+        cc: "j6127384", // Takashi Yamamoto
+        rating: 5,
+        comment: "Increíble obra de arte.",
+        date: ISODate("2025-08-06T09:30:00Z")
+      }
+    ]
+  },
+  {
+    title: "Parasite",
+    duration: 132,
+    release_year: 2019,
+    genres: ["Thriller", "Drama"],
+    cast: ["Song Kang-ho", "Choi Woo-shik"],
+    reviews: [
+      {
+        cc: "5482193s", // Hans Müller
+        rating: 5,
+        comment: "Ingeniosa y brutal.",
+        date: ISODate("2025-08-06T10:10:00Z")
+      },
+      {
+        cc: "578721943", // Laura Pérez
+        rating: 4,
+        comment: "Excelente, pero un poco intensa.",
+        date: ISODate("2025-08-06T11:45:00Z")
+      }
+    ]
+  }
+]);
+
+
+// Insert data into "tv_shows".
+db.tv_shows.insertMany([
+  {
+    title: "Stranger Things",
+    seasons: 4,
+    episodes: 34,
+    release_year: 2016,
+    genres: ["Sci-Fi", "Horror"],
+    cast: ["Millie Bobby Brown", "David Harbour"],
+    reviews: [
+      {
+        cc: "5482193s",
+        rating: 4,
+        comment: "Nostalgic and creepy!"
+      }
+    ]
+  },
+  {
+    title: "Breaking Bad",
+    seasons: 5,
+    episodes: 62,
+    release_year: 2008,
+    genres: ["Drama", "Crime"],
+    cast: ["Bryan Cranston", "Aaron Paul"],
+    reviews: []
+  }
+]);
+
+// Insert data into "history".
+db.history.insertOne({
+  cc: "578721943",
+  watched: [
+    {
+      content_type: "tv_show",
+      content_title: "Stranger Things",
+      episode: "S01E01",
+      watched_at: ISODate("2025-08-04T20:15:00Z")
+    },
+    {
+      content_type: "movie",
+      content_title: "Inception",
+      watched_at: ISODate("2025-08-04T22:10:00Z")
+    }
+  ]
+});
+
+Insert data into "playlists".
+db.playlists.insertMany([
+  {
+    cc: "j6127384",
+    name: "Sci-Fi Favorites",
+    created_at: ISODate("2025-08-01T12:00:00Z"),
+    titles: [
+      { type: "movie", 
+        content_title: "Inception" 
+        },
+      { type: "tv_show", 
+        content_title: "Stranger Things" }
+    ]
+  },
+  {
+    cc: "5482193s",
+    name: "Thriller Watchlist",
+    created_at: ISODate("2025-08-03T08:45:00Z"),
+    titles: [
+      { type: "movie", 
+        content_title: "Inception" 
+      }
+    ]
+  }
+]);
+
+Insert data into "interactions".
+db.interactions.insertMany([
+  {
+    content_type: "tv_show",
+    content_title: "Stranger Things",
+    cc: "f7361925",
+    type: "like",
+    date: ISODate("2025-08-04T09:00:00Z")
+  },
+  {
+    content_type: "movie",
+    content_title: "Inception",
+    cc: "1948372t",
+    type: "comment",
+    comment: "Una de mis películas favoritas.",
+    date: ISODate("2025-08-04T21:30:00Z")
+  }
+]);
+
+// --------- QUERIES ---------
+
+// Movies over 2 hours
+db.movies.find({ duration: { $gt: 120 } })
+
+// Users whose favorite genre includes "sci-fi" or "thriller"
+db.users.find({ favoritegender: { $in: ["sci-fi", "thriller"] } })
+
+// Users who have seen more than 1 content
+db.history.find({ "watched.1": { $exists: true } })
+
+// Movies whose title contains "ma"
+db.movies.find({ title: { $regex: "ma", $options: "i" } })
+
+// Users from Colombia or Japan who like "drama"
+db.users.find({
+  $and: [
+    { country: { $in: ["colombia", "japan"] } },
+    { favoritegender: "drama" }
+  ]
+})
+
+
+// -------- UPDATES AND DELETES --------
+
+// Change Marie Dubois rating in "Inception" (CC = "1948372T")
+db.movies.updateOne(
+  {
+    title : "Inception",
+    "reviews.cc": "1948372t"
+  },
+  {
+    $set: { "reviews.$.rating": 4 }
+  }
+)
+
+// Add is_public field to all playlists
+db.playlists.updateMany({}, { $set: { is_public: true } })
+
+// Remove Hans Müller review at Stranger Things (CC = "5482193s")
+db.tv_shows.updateOne(
+  { title : "Stranger Things" },
+  {
+    $pull: {
+      reviews: { cc: "5482193s" }
+    }
+  }
+)
+
+// Eliminate all films prior to the year 2000
+db.movies.deleteMany({ release_year: { $lt: 2000 } })
+
+// ------------ INDICES ------------
+// Create indices
+
+// Index per movie title
+db.movies.createIndex({ title: 1 })
+
+// Genres index in series
+db.tv_shows.createIndex({ genres: 1 })
+
+// Index by email and country in users
+db.users.createIndex({ email: 1, country: 1 })
+
+// Consult indices
+db.movies.getIndexes()
+
+// ------------ AGGREGATIONS ------------
+
+// Average film qualification
+db.movies.aggregate([
+  { $unwind: "$reviews" },
+  {
+    $group: {
+      _id: "$title",
+      avg_rating: { $avg: "$reviews.rating" },
+      total_reviews: { $sum: 1 }
+    }
+  },
+  { $sort: { avg_rating: -1 } }
+])
+
+// Total number of content seen per user (CC)
+db.history.aggregate([
+  { $unwind: "$watched" },
+  {
+    $group: {
+      _id: "$cc",
+      total_watched: { $sum: 1 }
+    }
+  }
+])
+
+// Most popular genres (movies)
+db.movies.aggregate([
+  { $unwind: "$genres" },
+  {
+    $group: {
+      _id: "$genres",
+      count: { $sum: 1 }
+    }
+  },
+  { $sort: { count: -1 } }
+])

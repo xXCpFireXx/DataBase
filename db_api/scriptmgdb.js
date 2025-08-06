@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import express, { json } from 'express';
 import cors from 'cors';
-import { Product  } from './store';
+import { Product  } from './store.js';
 
 const app = express();
 app.use(cors());
@@ -9,14 +9,14 @@ app.use(json());
 
 const dbConnection = async () => {
   try {
-    const mongodbAtlas = ""
+    const mongodbAtlas = "";
     await mongoose.connect(mongodbAtlas);
   } catch (error) {
     throw new Error("Error en la base de datos")
   }
 }
 
-app.get('/store', async (res) => {
+app.get('/store', async (req, res) => {
   try {
     await dbConnection();
     const products = await Product.find();

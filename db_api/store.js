@@ -8,10 +8,7 @@ const productSchema = new Schema({
   name: {
     type: String,
     required: true,
-  },
-  tags: {
-    type: Array,
-  },
+  }
 });
 
 let Product;
