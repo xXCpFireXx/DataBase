@@ -8,7 +8,7 @@ const { Pool } = pkg;
 const connection = new Pool({
   host: 'aws-0-us-east-2.pooler.supabase.com',
   user: 'postgres.xxyfefgdhrhjauupehfm',
-  password: '', // remplaza con tu contraseña real
+  password: 'Cpfire8282', // remplaza con tu contraseña real
   database: 'postgres',
   port: 6543,
   ssl: { rejectUnauthorized: false }
